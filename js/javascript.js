@@ -1,9 +1,8 @@
 var number = document.getElementsByClassName('number');
 
-var num1 = ""
-var num2 = ""
+var num1 = "";
+var num2 = "";
 var operator = document.getElementByClassName('operator');
-
 
 for (var i=0; i<number.length; i++){
   number[i].addEventListener('click', function(e) {
@@ -13,7 +12,7 @@ for (var i=0; i<number.length; i++){
   });
 }
 
-function GetNumber(num1) {
+function getnum1(num1) {
   num1 = number
   console.log('this number is' + num1);
 
@@ -23,7 +22,7 @@ function GetNumber(num1) {
 
   }
 
-  function GetNum2(num2){
+  function getnum2(num2){
     num2 = number
     console.log('this number is' + num2)
   }
@@ -34,7 +33,3 @@ for (var i=0; i<operator.length; i++){
 }
 
 
-//lickButton.addEventListener('click', function(){
-  //alert('This button has been clicked')
-  //console.log()
-//});
